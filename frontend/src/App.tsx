@@ -1,8 +1,16 @@
+import Footer from 'components/Footer'
+import NavBar from 'components/NavBar'
+import SingUp from 'components/SingUp'
+
 function App() {
   return (
-    <div>
-      <h1 className='text-primary'>Olá Mundo!</h1>
-    </div>
+    <>
+      <NavBar />
+      <div className='container'>
+        <SingUp />
+      </div>
+      <Footer />
+    </>
   )
 }
 
