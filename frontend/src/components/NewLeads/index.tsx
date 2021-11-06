@@ -53,7 +53,7 @@ const NewLeads = () => {
                 <td>
                   <div className='foo'>
                     <input
-                      className='form-check-input'
+                      className='select-all'
                       type='checkbox'
                       value=''
                       id='defaultCheck1'
