@@ -1,13 +1,14 @@
 import Footer from 'components/Footer'
 import NavBar from 'components/NavBar'
-import SingUp from 'components/SingUp'
+import NewLeads from 'components/NewLeads'
+//import SingUp from 'components/SingUp'
 
 function App() {
   return (
     <>
       <NavBar />
       <div className='container'>
-        <SingUp />
+        <NewLeads />
       </div>
       <Footer />
     </>
